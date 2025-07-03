@@ -2,3 +2,9 @@ body{
   padding: 5px;
   color: black;
 }
+
+#parent{
+  height: 10rem;
+  width: 10rem;
+  background-color: yellow;
+}
