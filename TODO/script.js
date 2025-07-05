@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const delBtn = document.createElement('button');
     delBtn.textContent = 'Delete';
     delBtn.addEventListener('click', (e) => {
-      e.stopPropagation(); // Prevent toggling completion
+      e.stopPropagation();
       li.remove();
     });
 
